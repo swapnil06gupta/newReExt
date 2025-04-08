@@ -47,7 +47,7 @@ function d() {
   }
   async function g() {
     try {
-      let t = await fetch("http://localhost:5174/?product=ReExt");
+      let t = await fetch("http://localhost:1977/?product=ReExt");
       if (!t.ok) throw new Error("Network response was not ok " + t.statusText);
       let e = await t.json();
       console.log(e.result[e.result.length - 1], "http smartflow"),
