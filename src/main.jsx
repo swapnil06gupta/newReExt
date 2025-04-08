@@ -15,7 +15,7 @@ var reactroot = ReactDOM.createRoot(document.getElementById("root"));
 var ReExtData = {
   sdkversion: "7.8.0",
   toolkit: "classic",
-  theme: "",
+  theme: "triton", // Explicitly set Triton theme
   packages: {
     charts: true,
     fontawesome: true,
@@ -31,7 +31,7 @@ var ReExtData = {
   rtl: false,
   locale: "en",
   debug: false,
-  urlbase: "./",
+  urlbase: "https://cdn.sencha.com/ext/gpl/7.8.0/", // Explicit CDN base
   location: "remote",
   overrides: false,
 };
