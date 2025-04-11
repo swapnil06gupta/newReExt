@@ -12,6 +12,7 @@ import CryptoChart from "./Chart";
 
 Fill();
 var reactroot = ReactDOM.createRoot(document.getElementById("root"));
+window.__IS_REEXT_RUNNING__ = true;
 var ReExtData = {
   sdkversion: "7.8.0",
   toolkit: "classic",
