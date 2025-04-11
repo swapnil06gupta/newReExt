@@ -1,8 +1,7 @@
 import { spawnSync as i } from "child_process";
 function d() {
   var r = !1,
-    s =
-      "bzJOOXhIaHJzTlZMZG1wXzg3dFR6N3NlQlVNakwwMGNoRDlwUWJobFJTbS45bFRPeWN6TjJVRE4zRWpPaUFIZWxKQ0xpY0dkeFpuZDVFVFp3Qm5NejBHT29KemN0Tm5iNkpXY3FGRE1mUldhc0ppT2lJV2R6SnllLjlKaU4xSXpVSUppT2ljR2JoSnll";
+    s = "";
   function u(t, e) {
     var c = i(
         "java",
